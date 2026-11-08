@@ -23,7 +23,7 @@ El boceto representa las once entidades de la sección 4 y las relaciones que la
 
 El sistema debe permitir a una agencia de viajes registrar a sus clientes, los paquetes turísticos que ofrece, las reservas y pagos que se realizan, y la opinión que los clientes dan sobre su experiencia. A partir de esa información debe poder generar reportes comerciales (ventas por destino, ingresos por mes) y consultas de atención al cliente (reservas y compras de cada persona).
 
-El análisis de requisitos consiste en partir de lo que el sistema debe responder y deducir qué información hay que guardar para poder responderlo. La lista siguiente se obtiene de las consultas, vistas y procedimientos que debe soportar la base:
+El análisis de requisitos consiste en partir de lo que el sistema debe responder y deducir qué información hay que guardar para poder responderlo. La lista siguiente se obtiene de la información que la base debe guardar :
 
 |N.º|Necesidad|Información que implica guardar|
 |---|---|---|
@@ -31,12 +31,6 @@ El análisis de requisitos consiste en partir de lo que el sistema debe responde
 |2|Conocer cuántas reservas ha hecho cada cliente|Qué reservas existen y a qué cliente pertenece cada una|
 |3|Mostrar los paquetes disponibles con precio, duración y destino|Paquetes, su precio, su duración, su destino y si están disponibles|
 |4|Consultar el itinerario de un paquete, con actividades y horarios|Actividades y horarios asociados a cada paquete|
-|5|Contar los paquetes vendidos por destino, de mayor a menor|Qué paquete incluye cada venta y el destino de cada paquete|
-|6|Resumir ingresos por mes, método de pago y destino|Fecha de cada pago, monto, método de pago y destino del paquete|
-|7|Calcular el porcentaje de opiniones positivas y negativas por fecha y destino|Opinión de cada cliente, su fecha y el destino al que se refiere|
-|8|Ofrecer una vista de paquetes y reservas con la definición cifrada|Relación entre paquetes y reservas|
-|9|Obtener, a partir del ID de un cliente, el total de sus compras y todos sus datos|Monto de cada compra asociada al cliente|
-|10|Ofrecer una vista con los precios de los servicios en orden alfabético|Servicios y su precio|
 
 Además de estas necesidades, el diseño debe cubrir los requisitos de estructura del proyecto: entidades con atributos, llaves primarias y foráneas, y datos de prueba suficientes para poder verificar cada consulta.
 
