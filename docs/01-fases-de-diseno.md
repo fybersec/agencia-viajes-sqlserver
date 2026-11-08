@@ -7,10 +7,8 @@
 | Fase                      | Producto obtenido                                                                                       |
 | ------------------------- | ------------------------------------------------------------------------------------------------------- |
 | 1. Análisis de requisitos | Lista de diez necesidades de información que la base debe poder responder (sección 3)                   |
-| 2. Diseño conceptual      | Diez entidades con sus atributos principales y once relaciones (sección 4)                              |
+| 2. Diseño conceptual      | Once entidades con sus atributos principales y nueve relaciones (sección 4)                              |
 | 3. Diseño lógico          | Diez tablas con su llave primaria y sus llaves foráneas, y la cardinalidad de cada relación (sección 5) |
-
-Los supuestos que se tomaron donde el enunciado dejaba decisiones abiertas están en la sección 6.
 
 ## 2. Diagrama del diseño
 
@@ -19,7 +17,7 @@ Esquema general de lo que se quiere construir, a modo de boceto previo: una caja
 <p align="center"><img src="https://github.com/fybersec/agencia-viajes-sqlserver/blob/main/evidencias/docs/01-dise%C3%B1o/Diagrama.png" width="800"></p>
 
 
-El boceto representa las diez entidades de la sección 4 y las relaciones que las conectan.
+El boceto representa las once entidades de la sección 4 y las relaciones que las conectan.
 
 ## 3. Fase 1: análisis de requisitos
 
@@ -59,7 +57,6 @@ En esta fase se identifican las cosas que existen en el negocio (entidades), qu�
 | Método de pago                        | Una forma de pagar que acepta la agencia                                                          | Nombre                                                    |
 | Pago                                  | Un pago concreto asociado a una reserva                                                           | Fecha de pago, monto, método de pago                      |
 | Opinión                               | La valoración que un cliente da sobre un paquete                                                  | Fecha, valoración (positiva o negativa), comentario       |
-| Detalle de reserva y Paquete-Servicio | Entidades de enlace que unen reservas con paquetes, y paquetes con servicios (se explican en 4.2) | Cantidad de personas, precio aplicado                     |
 
 Nota: aunque la última fila agrupa dos elementos de enlace, en el diseño lógico (sección 5) son dos tablas independientes. En total, las tablas son diez más una de enlace, como se detalla allí.
 
