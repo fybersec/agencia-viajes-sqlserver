@@ -29,7 +29,7 @@ agencia-viajes-sqlserver/
 │   └── 02-datos.sql
 ├── auditoria/
 │   ├── consultas.md
-└── evidencia/
+└── evidencias/
 ```
 
 ## Contenido
