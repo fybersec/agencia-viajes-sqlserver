@@ -2,6 +2,8 @@
 
 Base de datos para una agencia de viajes que registra clientes, paquetes turísticos, reservas, pagos y opiniones. El proyecto recorre todo el proceso: diseño, creación de las tablas, datos de prueba, diagrama entidad-relación, consultas, vistas, procedimientos almacenados y normalización. Cada paso está documentado y comprobado con capturas.
 
+<p align="center"> <img src="https://github.com/fybersec/agencia-viajes-sqlserver/blob/main/evidencias/docs/01-dise%C3%B1o/Diagrama.png"600"> </p>
+
 ## Tecnologías
 
 - SQL Server 2025 (edición Standard Developer)
